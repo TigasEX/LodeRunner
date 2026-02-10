@@ -1,0 +1,45 @@
+<HTML>
+
+<!--
+Lode Runner!!! HTML
+
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+-->
+
+<HEAD>
+<meta charset="UTF-8">
+<title>LodeRunner - AMD/2020</title>
+
+<style>
+	body {
+		background-color: #000000;
+		color: #ffffff;
+	}
+</style>
+
+<SCRIPT TYPE="text/javascript" src="LodeRunner0.js"></SCRIPT>
+<SCRIPT TYPE="text/javascript" src="LodeRunner.js"></SCRIPT>
+
+</HEAD>
+
+
+<BODY onload="onLoad()">
+<p><b>LodeRunner</b>
+<FORM NAME="form1">
+	<CANVAS id="canvas1" width="504" height="272" style="border:1px solid #000000;">
+		Your browser doesn't support the HTML5 CANVAS tag.
+	</CANVAS> <p>
+	<INPUT TYPE="button" NAME="New Game" VALUE="New Game" SIZE=10 OnClick="b1()">
+	<INPUT TYPE="button" NAME="Reload Level" VALUE="Reload Level" SIZE=10 OnClick="b2()">
+	<INPUT TYPE="button" NAME="Next Level" VALUE="Next Level" SIZE=10 OnClick="b3()">
+	<p>Controls: Move with the Arrow keys. Press F to fire.</p>
+	<p>Collect all gold to unlock the exit ladder.</p>
+	<p id = "score"> Score = 0 </p>
+	<p id = "currLevel"> Level = 1 </p>
+	<p id = "end"> </p>
+</FORM>
+</BODY>
+
+</HTML>
+<!-- código inicial de AMD/2020 -->
+<!-- vim:set ts=4 sw=4 et: -->
